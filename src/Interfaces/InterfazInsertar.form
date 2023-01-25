@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interfaces.InterfazInsertar">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6bd7b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Menu para insertar un usuario"/>
+        </properties>
+      </component>
+      <component id="cb186" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b654c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nombre:"/>
+        </properties>
+      </component>
+      <component id="37e2e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Apellido:"/>
+        </properties>
+      </component>
+      <component id="13e77" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Matricula/clave:"/>
+        </properties>
+      </component>
+      <component id="b0f7d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Numero de telefono: "/>
+        </properties>
+      </component>
+      <component id="272a5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ingresa los datos del usuario"/>
+        </properties>
+      </component>
+      <component id="66ef1" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="101"/>
+            <item value="201"/>
+            <item value="301"/>
+            <item value="401"/>
+            <item value="501"/>
+            <item value="601"/>
+            <item value="701"/>
+            <item value="801"/>
+            <item value="901"/>
+            <item value="1001"/>
+            <item value="102"/>
+            <item value="202"/>
+            <item value="302"/>
+            <item value="402"/>
+            <item value="502"/>
+            <item value="602"/>
+            <item value="702"/>
+            <item value="802"/>
+            <item value="902"/>
+            <item value="1002"/>
+            <item value="103"/>
+            <item value="203"/>
+            <item value="303"/>
+            <item value="403"/>
+            <item value="503"/>
+            <item value="603"/>
+            <item value="703"/>
+            <item value="803"/>
+            <item value="903"/>
+            <item value="1003"/>
+            <item value="104"/>
+            <item value="204"/>
+            <item value="304"/>
+            <item value="404"/>
+            <item value="504"/>
+            <item value="604"/>
+            <item value="704"/>
+            <item value="804"/>
+            <item value="904"/>
+            <item value="1004"/>
+            <item value="105"/>
+            <item value="205"/>
+            <item value="305"/>
+            <item value="405"/>
+            <item value="505"/>
+            <item value="605"/>
+            <item value="705"/>
+            <item value="805"/>
+            <item value="905"/>
+            <item value="1005"/>
+            <item value="106"/>
+            <item value="206"/>
+            <item value="306"/>
+            <item value="406"/>
+            <item value="506"/>
+            <item value="606"/>
+            <item value="706"/>
+            <item value="806"/>
+            <item value="906"/>
+            <item value="1006"/>
+            <item value="Sin Grupo(Profesor)"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6970e" class="javax.swing.JButton" binding="insertarButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Insertar"/>
+        </properties>
+      </component>
+      <component id="3ae5" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8f75" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="22445" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="aa0be" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Grupo"/>
+        </properties>
+      </component>
+      <component id="67027" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Selecciona la opcion adecuada"/>
+        </properties>
+      </component>
+      <component id="32fb7" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Alumno"/>
+            <item value="Profesor"/>
+          </model>
+        </properties>
+      </component>
+      <component id="fa9ac" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Ingeniería Forestal"/>
+            <item value="Licenciatura en Ciencias Ambientales"/>
+            <item value="Licenciatura en Informática"/>
+            <item value="Licenciatura en Biología"/>
+            <item value="Ingeniería en Tecnología de la Madera"/>
+            <item value="Licenciatura en Administración Turística"/>
+          </model>
+        </properties>
+      </component>
+      <component id="6dfe1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tipo de usuario:"/>
+        </properties>
+      </component>
+      <component id="5eb3c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Carrera"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
